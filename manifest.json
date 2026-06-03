@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
-  "name": "My Pretty Todo ✨",
+  "name": "Pink Planner 🌸",
   "version": "1.0",
-  "description": "A girly, notebook-style todo list with daily motivational quotes",
+  "description": "A cute notebook-inspired planner with tasks, motivational quotes, progress tracking, and Pinterest-style customization.",
   "action": {
     "default_popup": "popup.html",
     "default_icon": {
