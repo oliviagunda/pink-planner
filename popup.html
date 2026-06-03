@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Pretty Todo</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&family=Reenie+Beanie&family=Kalam:wght@300;400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+
+  <div class="notebook">
+
+    <!-- LEFT PAGE: Motivational Quote / Image -->
+    <div class="page page-left">
+      <div class="page-holes">
+        <div class="hole"></div>
+        <div class="hole"></div>
+        <div class="hole"></div>
+        <div class="hole"></div>
+      </div>
+      <div class="page-content left-content">
+        <div class="quote-header">
+          <span class="star">✿</span>
+          <span class="date-label" id="date-label"></span>
+          <span class="star">✿</span>
+        </div>
+
+        <!-- Image Section -->
+        <div class="image-section">
+          <div class="image-frame" id="image-frame">
+            <div class="image-placeholder" id="image-placeholder">
+              <div class="placeholder-inner">
+                <div class="camera-icon">📷</div>
+                <p>Add your Pinterest photo</p>
+                <span>paste a URL below</span>
+              </div>
+            </div>
+            <img id="quote-image" src="" alt="Daily inspiration" style="display:none;" />
+            <button class="remove-image-btn" id="remove-image-btn" style="display:none;" title="Remove image">✕</button>
+          </div>
+
+          <div class="image-url-input-wrap">
+            <input type="text" id="image-url-input" placeholder="Paste Pinterest image URL... 🔗" />
+            <button id="set-image-btn">Set ✓</button>
+          </div>
+        </div>
+
+        <!-- Quote Section -->
+        <div class="quote-section">
+          <div class="quote-display" id="quote-display">
+            <span class="quote-mark">"</span>
+            <span class="quote-text" id="quote-text"></span>
+            <span class="quote-mark closing">"</span>
+            <div class="quote-author" id="quote-author"></div>
+          </div>
+          <div class="quote-edit-area" id="quote-edit-area" style="display:none;">
+            <textarea id="quote-input" placeholder="Write your quote here..."></textarea>
+            <input type="text" id="author-input" placeholder="— Author (optional)" />
+            <div class="quote-edit-btns">
+              <button id="save-quote-btn">Save ✓</button>
+              <button id="cancel-quote-btn">Cancel</button>
+            </div>
+          </div>
+          <button class="edit-quote-btn" id="edit-quote-btn">✏️ edit quote</button>
+        </div>
+
+        <div class="left-doodles">
+          <span>♡</span><span>✦</span><span>☽</span><span>✿</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Spiral Binding -->
+    <div class="spiral-binding">
+      <div class="coil" v-for="i in 12"></div>
+    </div>
+
+    <!-- RIGHT PAGE: Todo List -->
+    <div class="page page-right">
+      <div class="page-content right-content">
+        <div class="todo-header">
+          <h1 class="title">my to-do's</h1>
+          <div class="title-underline"></div>
+        </div>
+
+        <div class="todo-input-row">
+          <input type="text" id="new-todo" placeholder="add something new... ✨" />
+          <button id="add-btn">+</button>
+        </div>
+
+        <ul class="todo-list" id="todo-list">
+          <!-- Todos rendered here -->
+        </ul>
+
+        <div class="bottom-doodles">
+          <span>✿</span><span>★</span><span>♡</span><span>✦</span><span>✿</span>
+        </div>
+
+        <div class="progress-section">
+          <div class="progress-label" id="progress-label">0 of 0 done ✓</div>
+          <div class="progress-bar-wrap">
+            <div class="progress-bar" id="progress-bar"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+</html>
