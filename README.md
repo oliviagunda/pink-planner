@@ -34,7 +34,7 @@ Pink Planner helps you stay productive with aesthetic task management, motivatio
 
 ---
 
-## 🖼️ Custom Quotes & Pinterest Images
+## 🖼️ Custom Pinterest Images Using Pin Links
 
 <!-- Replace with your screenshot -->
 ![Customization](screenshots/customization.png)
