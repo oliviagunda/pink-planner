@@ -30,15 +30,7 @@ Pink Planner helps you stay productive with aesthetic task management, motivatio
 
 ## 🌸 Main Planner View
 
-<!-- Replace with your screenshot -->
 ![Main View](screenshots/main-view.png)
-
----
-
-## ✅ Managing Tasks
-
-<!-- Replace with your screenshot -->
-![Tasks](screenshots/tasks.png)
 
 ---
 
@@ -56,7 +48,7 @@ Pink Planner helps you stay productive with aesthetic task management, motivatio
 ### 1. Clone this repository
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/pink-planner.git
+git clone https://github.com/oliviagunda/pink-planner.git
 ```
 
 ### 2. Open Chrome Extensions
