@@ -1,15 +1,13 @@
 <div align="center">
 
+<img src="icons/icon128.png" width="120" alt="Pink Planner Logo"/>
+
 # 🌸 Pink Planner
 
 ### A cute notebook-inspired Chrome extension for organizing your life in style ✨
 
 Pink Planner helps you stay productive with aesthetic task management, motivational quotes, progress tracking, and customizable Pinterest-style visuals — all inside a cozy digital planner.
 
-<br>
-
-<!-- Replace with your logo -->
-<img src="images/logo.png" width="120" alt="Pink Planner Logo"/>
 
 </div>
 
