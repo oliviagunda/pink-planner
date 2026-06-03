@@ -139,26 +139,31 @@ Stay motivated as you complete your daily goals 🌸
 
 # 📂 Project Structure
 
+## 📂 Project Structure
+
 ```text
 pink-planner/
 │
 ├── manifest.json
 ├── popup.html
 ├── popup.js
-├── styles.css
+├── popup.css
+├── README.md
+├── PRIVACY_POLICY.md
+│
+├── icons/
+│   ├── icon16.png
+│   ├── icon48.png
+│   ├── icon128.png
+│   └── icon1080.png
 │
 ├── images/
-│   └── logo.png
+│   └── default-photo.jpg
 │
-├── screenshots/
-│   ├── main-view.png
-│   ├── tasks.png
-│   └── customization.png
-│
-└── README.md
+└── screenshots/
+    ├── main-view.png
+    └── customization.png
 ```
-
----
 
 # 🌟 Future Improvements
 
